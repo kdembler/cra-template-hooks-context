@@ -1,0 +1,33 @@
+{
+  "name": "cra-template-hooks-context",
+  "version": "1.0.0",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "cra",
+    "typescript",
+    "hooks",
+    "context",
+    "material-ui",
+    "styled-components",
+    "i18next"
+  ],
+  "main": "template.json",
+  "description": "Opinionated CRA template with hook based store and API access",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kdembler/cra-template-hooks-context.git"
+  },
+  "license": "ISC",
+  "engines": {
+    "node": ">=10"
+  },
+  "bugs": {
+    "url": "https://github.com/kdembler/cra-template-hooks-context/issues"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}
