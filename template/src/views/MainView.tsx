@@ -3,10 +3,8 @@ import { AppBar, Button, Toolbar, Typography } from '@material-ui/core'
 import styled from 'styled-components'
 import ValueDisplay from 'components/ValueDisplay'
 import { useStore } from 'services/store'
-import { useTranslation } from 'services/i18n'
 
 const MainView: React.FC = () => {
-  const { t } = useTranslation()
   const { value, setValue } = useStore()
 
   const handleToggleValue = () => {
@@ -17,13 +15,13 @@ const MainView: React.FC = () => {
     <>
       <AppBar position="static">
         <Toolbar>
-          <Typography variant="h6">{t('appTitle')}</Typography>
+          <Typography variant="h6">App Title</Typography>
         </Toolbar>
       </AppBar>
       <ViewWrapper>
         <ValueDisplay />
         <Button onClick={handleToggleValue} variant="contained" color="primary">
-          {t('toggleValue')}
+          Toggle
         </Button>
       </ViewWrapper>
     </>
